@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <!--for search -->
+        <meta name="keywords" content="html, css, javascript">
+         <meta http-equiv="refresh" content="30">
+    </head>
+    <body>
+        
+        <script>
+            var pic;
+            function light(t){
+                if(t==1){
+                    pic="image/pic_bulbon.gif";
+                }
+                if(t==0){
+                    pic="image/pic_bulboff.gif";
+                }
+                document.getElementById("lightId").src=pic;
+            }
+        </script>
+        
+        <img id="lightId" src="image/pic_bulboff.gif">
+        <form>
+            <input type="button" value="On" onclick="light(1)">
+            <input type="button" value="Off" onclick="light(0)">
+        </form>
+    </body>
+</html>

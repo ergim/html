@@ -1,0 +1,100 @@
+
+body{
+    background-color:lightgray;
+    background-image:url(image/avtobus.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+
+p{
+    color:red;
+    text-align:center;
+    font-family: curier;
+    font-size: 30px;
+    font-style: italic;
+    
+    
+}
+
+#sub{
+    
+    font-variant-position: sub;
+}
+
+a#zaman:link{
+  color:red; background-color:transparent; text-decoration:none
+
+}
+a#zaman:visited{
+  color:blue; background-color:transparent; text-decoration:none
+
+}
+
+a#zaman:hover{
+  color:black; 
+  background-color:transparent; 
+  text-decoration:none
+
+}
+a#zaman:active{
+  color:yellow; background-color:transparent; text-decoration:none
+
+}
+
+img{
+    height: 300px;
+    width:300px;
+    float: right;
+}
+
+table{
+   // border-spacing: 20px;
+}
+
+table,tr,td,th{
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;//za lepa ravna crta
+
+}
+
+tr,th,td{
+    padding: 15px;
+}
+
+th{
+    background-color:blue;
+}
+
+tr:nth-child(even){
+    background-color:gray;
+}
+
+tr:nth-child(odd){
+    background-color:lightcyan;
+}
+
+ul#menu{
+    padding:0;
+    text-align: center;
+}
+ul#menu li{
+    display: inline;
+}
+
+ul#menu li{
+    background-color:black;
+    color:white;
+    padding:10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+ul#menu li:hover{
+    background-color:orange;
+}
+
+ol{
+    list-style-type: "1";
+}
+
+
